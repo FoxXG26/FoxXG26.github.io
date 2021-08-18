@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+}
+@font-face{
+    font-family: "letrapers" ;
+    src: url(../font/Irish_Grover/IrishGrover-Regular.ttf);
+}
+@font-face{
+    font-family: "letrapers2" ;
+    src: url(../font/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+#nombre_pagina{
+    color: green;
+}
+#header{
+    border: 4px rgb(84, 84, 84) solid;
+    background: url(../img/the_elder.png);
+    background-repeat: no-repeat ;
+    width: 100%;
+    
+
+}
+#bienvenidos{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "letrapers";
+    text-shadow: 15px 7px 5px rgb(49, 49, 49);
+    font-size: 45px;
+}
+#logo01{
+    text-align: center;
+     filter: drop-shadow(15px 7px 5px rgb(49, 49, 49));
+    
+    
+}
+nav{
+    padding: 10px;
+}
+.menu01 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+.menu01 a{
+    background-color: rgb(155, 155, 155);
+    text-decoration: none;  
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    border: rgb(84, 84, 84) solid;
+    padding: 10px;
+    display: block;
+}
+.menu01 a:hover{
+    background-color: blanchedalmond;
+
+}
+.menu01 ul li ul{
+    display: none;
+}
+.menu01 li:hover > ul{
+    display: block;
+    position: absolute;
+}
+#a1{
+    font-size: 24px;
+    padding: 8px;
+    
+}
+#main{
+    border:rgb(84, 84, 84) solid 4px;
+    background-color: black;
+    
+}
+.texto{
+    color: white;
+    font-family: "letrapers2";
+
+}
+#video0{
+    text-align: center;
+}
+#video{
+    width: 700px; 
+    height: 400px
+}
+p{
+    font-size: 18px;
+padding: 8px;
+}
+#footer{
+    border:rgb(84, 84, 84) solid 4px;
+    background-color: black;
+}
+#img{
+    width: 100%;
+}
+#audiosky{
+   text-align: center;
+   position: absolute;
+   top: 2200px;
+   left: 520px;
+}
+.footer{ 
+    color: white;
+    
+}
+#img2{
+    width: 465px;
+    height: 465px;
+    text-align: left;
+}
+#img2a{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+#img3{
+    width: 465px;
+    height: 465px;
+    text-align: right;
+
+}
+#p2{
+    font-size: 20px;
+    text-align: center;
+}
+.qa{
+    text-align: center;
+}
+header nav ul{
+    filter: drop-shadow(15px 7px 5px rgb(49, 49, 49));
+}
